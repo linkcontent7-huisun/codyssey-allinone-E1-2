@@ -74,7 +74,7 @@ python --version      # Windows. macOS·Linux는 python3 --version
 # 예) Python 3.14.2
 ```
 
-- 📂 이 저장소 파일: [GitHub 저장소 페이지](https://github.com/linkcontent7-huisun/codyssey-allinone-E1-2)의 초록색 **[Code]** → **[Download ZIP]**으로 받아 압축을 푼다. Git을 안다면 `git clone git@github.com:linkcontent7-huisun/codyssey-allinone-E1-2.git`.
+- 📂 이 저장소 파일: [GitHub 저장소 페이지](https://github.com/linkcontent7-huisun/codyssey-allinone-E1-2)의 초록색 **[Code]** → **[Download ZIP]**으로 받아 압축을 푼다. Git을 안다면 `git clone https://github.com/linkcontent7-huisun/codyssey-allinone-E1-2.git`. (SSH 주소는 SSH 키를 등록한 사람만 쓸 수 있어서 HTTPS 주소로 적었다.)
 - 🧠 전제 지식: **없음.** 아래 명령을 위에서부터 그대로 따라 치면 된다.
 
 ## 🚶 따라 하기
@@ -83,10 +83,10 @@ python --version      # Windows. macOS·Linux는 python3 --version
 
 ### 1단계. 폴더로 들어가서 실행한다
 
-압축을 푼 폴더(`E1-2`)로 이동한 뒤 실행한다.
+압축을 푼 폴더로 이동한 뒤 실행한다. 폴더 이름은 받은 방법에 따라 다르다(ZIP: `codyssey-allinone-E1-2-main`, `git clone`: `codyssey-allinone-E1-2`).
 
 ```bash
-cd E1-2
+cd codyssey-allinone-E1-2      # ZIP으로 받았다면 codyssey-allinone-E1-2-main
 python main.py
 ```
 
